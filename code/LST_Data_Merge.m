@@ -1,3 +1,32 @@
+%% 월간 데이터 불러오기
+stack_202001 = matfile("stack_202001.mat"); stack_202001 = stack_202001.stack_202001;
+stack_202002 = matfile("stack_202002.mat"); stack_202002 = stack_202002.stack_202002;
+stack_202003 = matfile("stack_202003.mat"); stack_202003 = stack_202003.stack_202003;
+stack_202004 = matfile("stack_202004.mat"); stack_202004 = stack_202004.stack_202004;
+stack_202005 = matfile("stack_202005.mat"); stack_202005 = stack_202005.stack_202005;
+stack_202006 = matfile("stack_202006.mat"); stack_202006 = stack_202006.stack_202006;
+stack_202007 = matfile("stack_202007.mat"); stack_202007 = stack_202007.stack_202007;
+stack_202008 = matfile("stack_202008.mat"); stack_202008 = stack_202008.stack_202008;
+stack_202009 = matfile("stack_202009.mat"); stack_202009 = stack_202009.stack_202009;
+stack_202010 = matfile("stack_202010.mat"); stack_202010 = stack_202010.stack_202010;
+stack_202011 = matfile("stack_202011.mat"); stack_202011 = stack_202011.stack_202011;
+stack_202012 = matfile("stack_202012.mat"); stack_202012 = stack_202012.stack_202012;
+
+stack_202101 = matfile("stack_202101.mat"); stack_202101 = stack_202101.stack_202101;
+stack_202102 = matfile("stack_202102.mat"); stack_202102 = stack_202102.stack_202102;
+stack_202103 = matfile("stack_202103.mat"); stack_202103 = stack_202103.stack_202103;
+stack_202104 = matfile("stack_202104.mat"); stack_202104 = stack_202104.stack_202104;
+stack_202105 = matfile("stack_202105.mat"); stack_202105 = stack_202105.stack_202105;
+stack_202106 = matfile("stack_202106.mat"); stack_202106 = stack_202106.stack_202106;
+% stack_202107 = matfile("stack_202107.mat"); stack_202107 = stack_202107.stack_202107;
+% stack_202108 = matfile("stack_202108.mat"); stack_202108 = stack_202108.stack_202108;
+stack_202109 = matfile("stack_202109.mat"); stack_202109 = stack_202109.stack_202109;
+stack_202110 = matfile("stack_202110.mat"); stack_202110 = stack_202110.stack_202110;
+stack_202111 = matfile("stack_202111.mat"); stack_202111 = stack_202111.stack_202111;
+stack_202112 = matfile("stack_202112.mat"); stack_202112 = stack_202112.stack_202112;
+
+
+
 %% LST, TA가 outlier인 행 제거
 
 df_202001 = Data_Preprocess(stack_202001);
